@@ -2,7 +2,7 @@ from glob import glob
 
 import keras.layers
 import yaml
-from keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam
 from tqdm import tqdm
 
 from net.discriminator import Discriminator
